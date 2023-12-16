@@ -1,0 +1,2178 @@
+{
+    "data": {
+      "getuserdata": {
+        "userbrokers": [
+          {
+            "id": "a5aeeeee-a4a5-4046-9c4e-0af0f73b80c3",
+            "name": "Dummy",
+            "apiKey": "f681dd5a-2191-4838-9e16-c107c98cb6d6",
+            "secret": "df75b54e-f445-497f-b424-e128eb756f8b",
+            "accessToken": "3bd3f2f3-3aa4-4fe6-9bf1-dcdb753608f7",
+            "refreshToken": "03a4815f-d244-458d-9b39-00d1ee0fd5c1",
+            "clientCode": "",
+            "password": "",
+            "totpSecret": "",
+            "userstrategys": [
+              {
+                "id": "a3c93ba9-f8c0-42ed-ae9f-11be6f929448",
+                "name": "BANK trend Capturer",
+                "active": true,
+                "createdAt": "2023-12-07T06:16:39.266409+00:00",
+                "quantity": 3,
+                "deployed": false,
+                "strategy": {
+                  "id": "40c68e50-871e-4a9f-9c85-48e3437e1e76",
+                  "name": "BANK trend Capturer",
+                  "description": "BANK trend Capturer",
+                  "type": "Intraday",
+                  "active": true,
+                  "createdAt": "2023-11-01T04:15:00.862040+00:00",
+                  "capital": "25000.00",
+                  "lot": 4,
+                  "monthlyReturn": "0.25",
+                  "drawdown": "0.15",
+                  "actionSet": [
+                    {
+                      "id": "455fa964-71a5-4dd0-bbfd-2f2fb57d7996",
+                      "action": "SELL",
+                      "lot": 4,
+                      "triggerPoints": -30,
+                      "actionType": "STOPLOSS",
+                      "createTrigger": true
+                    },
+                    {
+                      "id": "36289ed7-48a2-4588-816f-ad2fd9f44331",
+                      "action": "SELL",
+                      "lot": 2,
+                      "triggerPoints": 30,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "7f030302-adbc-4c8e-b1bf-6f119deb0a4e",
+                      "action": "SELL",
+                      "lot": 1,
+                      "triggerPoints": 60,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    }
+                  ]
+                },
+                "positions": [
+                  {
+                    "id": "dd89ebf9-5a74-4c13-9c66-f6bc00fa5afa",
+                    "avgBuyPrice": "503.20",
+                    "createdAt": "2023-12-08T05:48:06.940860+00:00",
+                    "token": "1234",
+                    "symbol": "BANKNIFTY23D1346800CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "60384.00",
+                    "currentValue": "60384.00",
+                    "profitLoss": "-1434.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "757.00",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "4456c322-277e-45b8-b985-9880ce16705e",
+                        "createdAt": "2023-12-08T06:18:05.460727+00:00",
+                        "symbol": "BANKNIFTY23D1346800CE",
+                        "price": "491.25",
+                        "condition": "EXIT",
+                        "quantity": -120,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "524ad6bc-571e-41a0-b329-c3ff2dc76a7b",
+                        "createdAt": "2023-12-08T05:48:06.940860+00:00",
+                        "symbol": "BANKNIFTY23D1346800CE",
+                        "price": "503.20",
+                        "condition": "ENTRY",
+                        "quantity": 120,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "9e6ea7e9-c9e5-4cfa-9c3f-006f30aa491d",
+                    "avgBuyPrice": "333.40",
+                    "createdAt": "2023-12-08T05:33:15.000519+00:00",
+                    "token": "1234",
+                    "symbol": "BANKNIFTY23D1347100PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "101118.00",
+                    "currentValue": "101118.00",
+                    "profitLoss": "4051.50",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "135.80",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "a815a27a-29b4-4e7c-81e8-bc61ee5d3884",
+                        "createdAt": "2023-12-08T08:21:32.044911+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "333.30",
+                        "condition": "STOPLOSS",
+                        "quantity": -90,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "dc3b38b7-5134-48c7-b362-47201ef925e8",
+                        "createdAt": "2023-12-08T08:14:53.995196+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "363.35",
+                        "condition": "TARGET",
+                        "quantity": -90,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "36842ba8-089e-49c4-a1de-de61be5bb87d",
+                        "createdAt": "2023-12-08T08:09:06.708131+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "333.40",
+                        "condition": "ENTRY",
+                        "quantity": 180,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "6c9e24aa-c200-4630-a069-94a266880e3f",
+                        "createdAt": "2023-12-08T05:41:52.562741+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "335.15",
+                        "condition": "STOPLOSS",
+                        "quantity": -60,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "7cc6636f-3a3f-49e2-a1a4-7412510f8a7b",
+                        "createdAt": "2023-12-08T05:36:50.544612+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "372.70",
+                        "condition": "TARGET",
+                        "quantity": -60,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "31eba1e8-54d4-44fe-bc1a-b531712968f9",
+                        "createdAt": "2023-12-08T05:33:15.000519+00:00",
+                        "symbol": "BANKNIFTY23D1347100PE",
+                        "price": "342.55",
+                        "condition": "ENTRY",
+                        "quantity": 120,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1b692040-93c6-49d3-9a20-fab65ee63d63",
+                    "avgBuyPrice": "465.10",
+                    "createdAt": "2023-12-08T08:06:08.303848+00:00",
+                    "token": "1234",
+                    "symbol": "BANKNIFTY23D1346700CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "173736.00",
+                    "currentValue": "173736.00",
+                    "profitLoss": "-2893.50",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "848.25",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "1e231977-ad3a-4981-b232-510ff21f95db",
+                        "createdAt": "2023-12-08T08:51:06.345241+00:00",
+                        "symbol": "BANKNIFTY23D1346700CE",
+                        "price": "464.50",
+                        "condition": "STOPLOSS",
+                        "quantity": -90,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "65c58804-9927-4629-ae58-9c8a6818f938",
+                        "createdAt": "2023-12-08T08:38:26.900395+00:00",
+                        "symbol": "BANKNIFTY23D1346700CE",
+                        "price": "496.55",
+                        "condition": "TARGET",
+                        "quantity": -90,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "229421ff-257a-4072-b0be-c23ab8943d92",
+                        "createdAt": "2023-12-08T08:33:04.577006+00:00",
+                        "symbol": "BANKNIFTY23D1346700CE",
+                        "price": "465.10",
+                        "condition": "ENTRY",
+                        "quantity": 180,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "ed400840-9be3-4018-a66f-15fb32099ca4",
+                        "createdAt": "2023-12-08T08:09:06.163404+00:00",
+                        "symbol": "BANKNIFTY23D1346700CE",
+                        "price": "468.60",
+                        "condition": "STOPLOSS",
+                        "quantity": -180,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "d4b0ed4b-319f-41a2-982c-1384c17c3c37",
+                        "createdAt": "2023-12-08T08:06:08.303848+00:00",
+                        "symbol": "BANKNIFTY23D1346700CE",
+                        "price": "500.10",
+                        "condition": "ENTRY",
+                        "quantity": 180,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "0b080ee2-08c4-4619-94ba-b5080778a8f7",
+                    "avgBuyPrice": "328.85",
+                    "createdAt": "2023-12-08T06:18:05.677173+00:00",
+                    "token": "1234",
+                    "symbol": "BANKNIFTY23D1347200PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "39462.00",
+                    "currentValue": "39462.00",
+                    "profitLoss": "4497.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "164.80",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "f4353690-200d-4416-8416-da734c4dd72a",
+                        "createdAt": "2023-12-08T06:58:41.084177+00:00",
+                        "symbol": "BANKNIFTY23D1347200PE",
+                        "price": "358.25",
+                        "condition": "STOPLOSS",
+                        "quantity": -30,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "221f8ce7-64de-4251-a452-8e81a36e2704",
+                        "createdAt": "2023-12-08T06:53:22.323558+00:00",
+                        "symbol": "BANKNIFTY23D1347200PE",
+                        "price": "389.05",
+                        "condition": "TARGET",
+                        "quantity": -30,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "137297d9-007b-4e8e-bbae-6b82cdc95d4b",
+                        "createdAt": "2023-12-08T06:50:07.899796+00:00",
+                        "symbol": "BANKNIFTY23D1347200PE",
+                        "price": "359.00",
+                        "condition": "TARGET",
+                        "quantity": -60,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "4b1e330c-6407-4773-b431-7dc5abc3fa72",
+                        "createdAt": "2023-12-08T06:18:05.677173+00:00",
+                        "symbol": "BANKNIFTY23D1347200PE",
+                        "price": "328.85",
+                        "condition": "ENTRY",
+                        "quantity": 120,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "81dc153b-14ca-4775-808b-2bf3a9b6025c",
+                "name": "FIN trend Capturer",
+                "active": true,
+                "createdAt": "2023-12-08T04:03:02.378286+00:00",
+                "quantity": 3,
+                "deployed": false,
+                "strategy": {
+                  "id": "494f669b-4e61-435d-a108-dfc30a3b8837",
+                  "name": "FIN trend Capturer",
+                  "description": "FIN trend Capturer",
+                  "type": "Intraday",
+                  "active": true,
+                  "createdAt": "2023-11-01T04:14:17.888668+00:00",
+                  "capital": "25000.00",
+                  "lot": 4,
+                  "monthlyReturn": "0.25",
+                  "drawdown": "0.15",
+                  "actionSet": [
+                    {
+                      "id": "5eab9439-5475-4ab6-95be-75aa6edfa927",
+                      "action": "SELL",
+                      "lot": 4,
+                      "triggerPoints": -15,
+                      "actionType": "STOPLOSS",
+                      "createTrigger": true
+                    },
+                    {
+                      "id": "5a887f1f-b359-4478-a283-f47c6338dbf4",
+                      "action": "SELL",
+                      "lot": 2,
+                      "triggerPoints": 15,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "ac4051b7-55f6-4b3d-883c-d36a5773e5a7",
+                      "action": "SELL",
+                      "lot": 1,
+                      "triggerPoints": 30,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    }
+                  ]
+                },
+                "positions": [
+                  {
+                    "id": "db461358-5dda-42fc-b4f3-278d4634e74a",
+                    "avgBuyPrice": "153.40",
+                    "createdAt": "2023-12-08T05:34:12.569451+00:00",
+                    "token": "1234",
+                    "symbol": "FINNIFTY23D1221200PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "73632.00",
+                    "currentValue": "73632.00",
+                    "profitLoss": "3540.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "57.00",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "f3e58442-a9a5-4f7c-b7b1-79f6aa829514",
+                        "createdAt": "2023-12-08T05:38:50.812346+00:00",
+                        "symbol": "FINNIFTY23D1221200PE",
+                        "price": "152.80",
+                        "condition": "STOPLOSS",
+                        "quantity": -240,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "7db67c90-08e2-44d6-ad5e-52f723c03f72",
+                        "createdAt": "2023-12-08T05:36:58.952910+00:00",
+                        "symbol": "FINNIFTY23D1221200PE",
+                        "price": "168.75",
+                        "condition": "TARGET",
+                        "quantity": -240,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "d3c527a3-de58-404b-adf7-580f4997da34",
+                        "createdAt": "2023-12-08T05:34:12.569451+00:00",
+                        "symbol": "FINNIFTY23D1221200PE",
+                        "price": "153.40",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cc837aa6-80af-45f7-a4e0-87c3e8f07937",
+                    "avgBuyPrice": "177.75",
+                    "createdAt": "2023-12-08T06:24:04.815577+00:00",
+                    "token": "1234",
+                    "symbol": "FINNIFTY23D1221250PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "163800.00",
+                    "currentValue": "163800.00",
+                    "profitLoss": "12870.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "75.80",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "c2ce3572-876b-4ebd-9d2d-a1937ab5c8b8",
+                        "createdAt": "2023-12-08T08:22:29.295212+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "177.35",
+                        "condition": "STOPLOSS",
+                        "quantity": -240,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "97377950-1ae6-40b0-b147-c50b69c3101f",
+                        "createdAt": "2023-12-08T08:14:49.283386+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "192.75",
+                        "condition": "TARGET",
+                        "quantity": -240,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "f1977bc9-d4cc-49f2-80ef-b75dafaa0e76",
+                        "createdAt": "2023-12-08T08:09:07.573179+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "177.75",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "3547ab08-d858-4dad-9523-285f5263a685",
+                        "createdAt": "2023-12-08T07:48:57.988849+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "177.70",
+                        "condition": "STOPLOSS",
+                        "quantity": -120,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "492edc03-a741-4a8f-815d-3f6b3b887d29",
+                        "createdAt": "2023-12-08T07:33:57.690174+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "197.35",
+                        "condition": "TARGET",
+                        "quantity": -120,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "6c27eee5-129a-4802-8655-920f68b38896",
+                        "createdAt": "2023-12-08T07:17:09.143246+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "178.50",
+                        "condition": "TARGET",
+                        "quantity": -240,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "f440ab17-367e-4db2-89da-45497711953c",
+                        "createdAt": "2023-12-08T06:24:04.815577+00:00",
+                        "symbol": "FINNIFTY23D1221250PE",
+                        "price": "163.50",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "45fe1e11-58fc-4278-8c66-d2e016b29b72",
+                    "avgBuyPrice": "170.75",
+                    "createdAt": "2023-12-08T05:45:06.249265+00:00",
+                    "token": "1234",
+                    "symbol": "FINNIFTY23D1221000CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "258408.00",
+                    "currentValue": "258408.00",
+                    "profitLoss": "-17256.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "292.40",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "1057c843-cd48-49db-9189-8d661e964536",
+                        "createdAt": "2023-12-08T08:51:28.380855+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "155.00",
+                        "condition": "STOPLOSS",
+                        "quantity": -480,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "5b51490e-6a49-489c-95a8-7533d87d1892",
+                        "createdAt": "2023-12-08T08:36:07.657428+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "170.75",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "b5f83361-27fc-460a-8e45-61c088a40c4c",
+                        "createdAt": "2023-12-08T08:09:07.327817+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "162.70",
+                        "condition": "EXIT",
+                        "quantity": -480,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "4b4b27c4-a456-40af-9ab2-173409cf4b95",
+                        "createdAt": "2023-12-08T08:06:05.123680+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "171.10",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "f9892433-55f4-4cb0-9277-f031b8f05a87",
+                        "createdAt": "2023-12-08T06:24:04.643789+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "184.70",
+                        "condition": "EXIT",
+                        "quantity": -480,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "027de903-64b2-45a7-863d-4803afd1c484",
+                        "createdAt": "2023-12-08T05:45:06.249265+00:00",
+                        "symbol": "FINNIFTY23D1221000CE",
+                        "price": "196.50",
+                        "condition": "ENTRY",
+                        "quantity": 480,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "5a2294ca-1987-4524-a5ec-5f24323907e0",
+                "name": "NIFTY HEDGE FOLLOWER",
+                "active": true,
+                "createdAt": "2023-12-07T08:31:00.248211+00:00",
+                "quantity": 7,
+                "deployed": false,
+                "strategy": {
+                  "id": "6a57268b-53c9-44ae-a0c0-21a6285f329d",
+                  "name": "NIFTY HEDGE FOLLOWER",
+                  "description": "NIFTY HEDGE FOLLOWER will be consist of 2 orders",
+                  "type": "Intraday",
+                  "active": true,
+                  "createdAt": "2023-12-04T09:33:27.683703+00:00",
+                  "capital": "150000.00",
+                  "lot": 4,
+                  "monthlyReturn": "0.10",
+                  "drawdown": "0.02",
+                  "actionSet": [
+                    {
+                      "id": "4b8bdaef-c5ed-46a3-aee4-d162737cbd5e",
+                      "action": "SELL",
+                      "lot": 2,
+                      "triggerPoints": 15,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "22610ff1-5df8-45a7-8b38-eb96fcde52c8",
+                      "action": "SELL",
+                      "lot": 1,
+                      "triggerPoints": 30,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "e217bf6e-17e2-425b-b36e-468c5734ba31",
+                      "action": "SELL",
+                      "lot": 4,
+                      "triggerPoints": -15,
+                      "actionType": "STOPLOSS",
+                      "createTrigger": false
+                    }
+                  ]
+                },
+                "positions": [
+                  {
+                    "id": "fb033034-dbcf-4513-b75e-8ce3808c5bd5",
+                    "avgBuyPrice": "40.00",
+                    "createdAt": "2023-12-07T08:33:06.580855+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720950PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "-32440.00",
+                    "currentValue": "-32440.00",
+                    "profitLoss": "2940.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "48.85",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "ea99ff14-b710-46b0-a4b6-75149970f332",
+                        "createdAt": "2023-12-07T09:03:12.379310+00:00",
+                        "symbol": "NIFTY23D0720950PE",
+                        "price": "38.45",
+                        "condition": "EXIT",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "e56c1136-aa35-4ad9-9362-4ddeb3dded50",
+                        "createdAt": "2023-12-07T08:42:05.955900+00:00",
+                        "symbol": "NIFTY23D0720950PE",
+                        "price": "40.00",
+                        "condition": "ENTRY",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "19f78052-f38a-4080-83fc-2151f592c062",
+                        "createdAt": "2023-12-07T08:36:05.762298+00:00",
+                        "symbol": "NIFTY23D0720950PE",
+                        "price": "35.30",
+                        "condition": "EXIT",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "286810ab-09f8-46c3-923e-d842c0064a62",
+                        "createdAt": "2023-12-07T08:33:06.580855+00:00",
+                        "symbol": "NIFTY23D0720950PE",
+                        "price": "41.10",
+                        "condition": "ENTRY",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fa1d8a1b-bbb2-44a4-9a52-be8dddb59ca7",
+                    "avgBuyPrice": "193.70",
+                    "createdAt": "2023-12-08T08:48:06.973786+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1420800CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "271180.00",
+                    "currentValue": "271180.00",
+                    "profitLoss": "26582.50",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "258.70",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "77ac61e5-3b5d-4e57-8a0f-57f253bbe26e",
+                        "createdAt": "2023-12-08T09:27:04.308492+00:00",
+                        "symbol": "NIFTY23D1420800CE",
+                        "price": "207.60",
+                        "condition": "STOPLOSS",
+                        "quantity": -350,
+                        "orderType": "MARKET",
+                        "status": "true",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "c61a51bf-3af4-46f8-9417-990def55869c",
+                        "createdAt": "2023-12-08T09:16:48.531304+00:00",
+                        "symbol": "NIFTY23D1420800CE",
+                        "price": "225.55",
+                        "condition": "TARGET",
+                        "quantity": -350,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "dab07103-0e9b-4dd7-9fa7-332c48f26f9a",
+                        "createdAt": "2023-12-08T09:08:00.741094+00:00",
+                        "symbol": "NIFTY23D1420800CE",
+                        "price": "208.80",
+                        "condition": "TARGET",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "d8530c1f-fd30-4c02-b173-cd8f5e5ef8ef",
+                        "createdAt": "2023-12-08T08:48:06.973786+00:00",
+                        "symbol": "NIFTY23D1420800CE",
+                        "price": "193.70",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ba52f43a-dcdb-4a28-af12-35cb4852abe3",
+                    "avgBuyPrice": "211.00",
+                    "createdAt": "2023-12-08T06:12:04.436945+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1420850CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "211000.00",
+                    "currentValue": "211000.00",
+                    "profitLoss": "-7550.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "218.30",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "80695976-b0ac-4c08-bb88-ec8a7c556153",
+                        "createdAt": "2023-12-08T06:36:10.759453+00:00",
+                        "symbol": "NIFTY23D1420850CE",
+                        "price": "203.45",
+                        "condition": "EXIT",
+                        "quantity": -1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "daf703d7-ae74-45c5-981d-119f51507d83",
+                        "createdAt": "2023-12-08T06:12:04.436945+00:00",
+                        "symbol": "NIFTY23D1420850CE",
+                        "price": "211.00",
+                        "condition": "ENTRY",
+                        "quantity": 1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a49fc78b-f3b2-4f73-9a5d-078b1f9e12ea",
+                    "avgBuyPrice": "2.70",
+                    "createdAt": "2023-12-07T08:36:06.621762+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720950CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "-3360.00",
+                    "currentValue": "-3360.00",
+                    "profitLoss": "1120.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "0.05",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "eb8b6f9e-da7e-49ae-8443-c1eb74d7329e",
+                        "createdAt": "2023-12-07T09:11:25.274971+00:00",
+                        "symbol": "NIFTY23D0720950CE",
+                        "price": "1.70",
+                        "condition": "EXIT",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "b6731151-1a82-494f-b7c1-6fc1ff1f5696",
+                        "createdAt": "2023-12-07T09:03:12.674251+00:00",
+                        "symbol": "NIFTY23D0720950CE",
+                        "price": "2.70",
+                        "condition": "ENTRY",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "4cc5a773-80d6-4385-8219-e481e72cf2f3",
+                        "createdAt": "2023-12-07T08:42:05.699994+00:00",
+                        "symbol": "NIFTY23D0720950CE",
+                        "price": "3.90",
+                        "condition": "EXIT",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "52fde787-ce3e-4f92-9c53-98c7545b45f9",
+                        "createdAt": "2023-12-07T08:36:06.621762+00:00",
+                        "symbol": "NIFTY23D0720950CE",
+                        "price": "5.70",
+                        "condition": "ENTRY",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "99ec990b-16f3-4ab3-8959-99b55c23e62c",
+                    "avgBuyPrice": "159.30",
+                    "createdAt": "2023-12-08T05:33:06.579113+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1421100PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "336300.00",
+                    "currentValue": "336300.00",
+                    "profitLoss": "20300.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "141.95",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "feadd7cf-8c57-4d83-ac7b-028b277482bd",
+                        "createdAt": "2023-12-08T06:55:08.423983+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "170.30",
+                        "condition": "EXIT",
+                        "quantity": -500,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "f2f6046d-6e05-4060-aa62-90451682916e",
+                        "createdAt": "2023-12-08T06:53:06.580455+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "173.85",
+                        "condition": "TARGET",
+                        "quantity": -500,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "51dc93b8-dc9c-4ca5-9064-12f39bd544fa",
+                        "createdAt": "2023-12-08T06:36:11.737913+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "159.30",
+                        "condition": "ENTRY",
+                        "quantity": 1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "021d771e-a645-48a4-bf99-4c098aa907f3",
+                        "createdAt": "2023-12-08T05:44:15.875230+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "176.20",
+                        "condition": "STOPLOSS",
+                        "quantity": -500,
+                        "orderType": "MARKET",
+                        "status": "true",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "1085ef43-2c32-4350-ad4f-7663f13d1ffe",
+                        "createdAt": "2023-12-08T05:35:58.272972+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "192.85",
+                        "condition": "TARGET",
+                        "quantity": -500,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "0d0b0d56-fa82-4306-9543-0a86cf3f0ef8",
+                        "createdAt": "2023-12-08T05:33:06.579113+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "177.00",
+                        "condition": "ENTRY",
+                        "quantity": 1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7e1fb399-48d1-42eb-835f-a5039b6b2c4c",
+                    "avgBuyPrice": "102.95",
+                    "createdAt": "2023-12-08T05:33:13.872614+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1421000PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "-217950.00",
+                    "currentValue": "-217950.00",
+                    "profitLoss": "8075.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "88.50",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "193ef262-4109-4492-857f-b9b47a1528e1",
+                        "createdAt": "2023-12-08T06:55:08.866422+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "111.00",
+                        "condition": "EXIT",
+                        "quantity": 500,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "c879301f-1ed5-410b-b0e6-25696066938b",
+                        "createdAt": "2023-12-08T06:53:06.622664+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "113.60",
+                        "condition": "TARGET",
+                        "quantity": 500,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "0d79fd6c-98a6-4dba-a7fe-a0242763531b",
+                        "createdAt": "2023-12-08T06:36:11.870184+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "102.95",
+                        "condition": "ENTRY",
+                        "quantity": -1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "5609cfb4-5c2a-4476-86f1-b6a5592d3e47",
+                        "createdAt": "2023-12-08T05:44:15.930448+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "116.80",
+                        "condition": "STOPLOSS",
+                        "quantity": 500,
+                        "orderType": "MARKET",
+                        "status": "true",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "5c81aa68-8a73-4938-a84b-f7e7cb3b4151",
+                        "createdAt": "2023-12-08T05:35:58.307816+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "130.35",
+                        "condition": "TARGET",
+                        "quantity": 500,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "847af105-48d8-4c6d-ad6b-e10158cf8bb0",
+                        "createdAt": "2023-12-08T05:33:13.872614+00:00",
+                        "symbol": "NIFTY23D1421000PE",
+                        "price": "115.00",
+                        "condition": "ENTRY",
+                        "quantity": -1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "79ca3fac-760c-4c04-802a-b457bdbbcb0f",
+                    "avgBuyPrice": "102.90",
+                    "createdAt": "2023-12-08T08:48:15.696836+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1420950CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "-144060.00",
+                    "currentValue": "-144060.00",
+                    "profitLoss": "9870.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "148.00",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "f61152fc-ba29-487d-ac45-9b00623882bb",
+                        "createdAt": "2023-12-08T09:27:04.357026+00:00",
+                        "symbol": "NIFTY23D1420950CE",
+                        "price": "111.35",
+                        "condition": "STOPLOSS",
+                        "quantity": 350,
+                        "orderType": "MARKET",
+                        "status": "true",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "b0e94ec9-5873-4e66-a38e-9cd3768cd782",
+                        "createdAt": "2023-12-08T09:16:48.566134+00:00",
+                        "symbol": "NIFTY23D1420950CE",
+                        "price": "122.35",
+                        "condition": "TARGET",
+                        "quantity": 350,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "8a457232-9385-4459-b52f-2c567225d3a3",
+                        "createdAt": "2023-12-08T09:08:00.774133+00:00",
+                        "symbol": "NIFTY23D1420950CE",
+                        "price": "111.50",
+                        "condition": "TARGET",
+                        "quantity": 700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "43e13b56-0ca1-4fcd-8135-e308acdc326c",
+                        "createdAt": "2023-12-08T08:48:15.696836+00:00",
+                        "symbol": "NIFTY23D1420950CE",
+                        "price": "102.90",
+                        "condition": "ENTRY",
+                        "quantity": -1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "6b865e3f-d309-4ca9-b26b-d4aa4c8239c5",
+                    "avgBuyPrice": "115.10",
+                    "createdAt": "2023-12-07T08:36:06.528864+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720800CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "94280.00",
+                    "currentValue": "94280.00",
+                    "profitLoss": "-3640.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "101.05",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "88534a3b-0310-4422-a64b-b88e7a56e56c",
+                        "createdAt": "2023-12-07T09:11:25.080118+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "111.60",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "fad819c9-19ff-47dd-aa4e-a63c2b87262c",
+                        "createdAt": "2023-12-07T09:03:12.564162+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "115.10",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "bd8825a5-ce17-4210-995a-4be4abce7d74",
+                        "createdAt": "2023-12-07T08:42:04.602108+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "115.00",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "8be33175-e57a-4bb7-a398-d96517afd214",
+                        "createdAt": "2023-12-07T08:36:06.528864+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "120.60",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "18310908-b9d1-4bb3-936c-e47398dd8609",
+                    "avgBuyPrice": "137.00",
+                    "createdAt": "2023-12-07T08:33:04.660283+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0721050PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "109280.00",
+                    "currentValue": "109280.00",
+                    "profitLoss": "-2260.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "148.80",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "89244509-8525-4801-abba-259753d17aec",
+                        "createdAt": "2023-12-07T09:03:12.196844+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "136.50",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "88d068f5-9f97-48f1-b078-868baca4416e",
+                        "createdAt": "2023-12-07T08:42:05.856238+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "137.00",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "25a81972-8a61-4e4f-917b-81b0f8e047e6",
+                        "createdAt": "2023-12-07T08:36:05.594501+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "131.05",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "7b11166c-9ea4-4b59-b685-ffd6028c8cc7",
+                        "createdAt": "2023-12-07T08:33:04.660283+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "136.20",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "0c1fe2c0-cc11-4e07-a3e4-6717bfacf315",
+                    "avgBuyPrice": "114.85",
+                    "createdAt": "2023-12-08T06:12:04.947990+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1421000CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "-114850.00",
+                    "currentValue": "-114850.00",
+                    "profitLoss": "5750.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "117.50",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "eb8e59df-2598-473e-88cc-08ea14e6006a",
+                        "createdAt": "2023-12-08T06:36:11.344711+00:00",
+                        "symbol": "NIFTY23D1421000CE",
+                        "price": "109.10",
+                        "condition": "EXIT",
+                        "quantity": 1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "c253c062-e030-4550-9f6d-1878997a99b9",
+                        "createdAt": "2023-12-08T06:12:04.947990+00:00",
+                        "symbol": "NIFTY23D1421000CE",
+                        "price": "114.85",
+                        "condition": "ENTRY",
+                        "quantity": -1000,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2f4d61aa-f207-4ab1-a2c9-4076c624eb95",
+                "name": "NIFTY Follower",
+                "active": true,
+                "createdAt": "2023-12-04T10:31:59.551379+00:00",
+                "quantity": 5,
+                "deployed": false,
+                "strategy": {
+                  "id": "4a80e96c-fd3b-439a-a195-59305f8fca51",
+                  "name": "NIFTY Follower",
+                  "description": "Nifty Follower",
+                  "type": "Intraday",
+                  "active": true,
+                  "createdAt": "2023-10-21T06:45:46.908241+00:00",
+                  "capital": "100000.00",
+                  "lot": 4,
+                  "monthlyReturn": "0.20",
+                  "drawdown": "0.15",
+                  "actionSet": [
+                    {
+                      "id": "6e67f780-f18c-4a91-843e-61770d3eb3fa",
+                      "action": "SELL",
+                      "lot": 2,
+                      "triggerPoints": 15,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "0c23233f-2c39-4f39-8f7e-99632ca06f41",
+                      "action": "SELL",
+                      "lot": 1,
+                      "triggerPoints": 30,
+                      "actionType": "TARGET",
+                      "createTrigger": false
+                    },
+                    {
+                      "id": "2cad2a0d-814d-466f-9151-91ed4e9ec6bd",
+                      "action": "SELL",
+                      "lot": 4,
+                      "triggerPoints": -20,
+                      "actionType": "STOPLOSS",
+                      "createTrigger": true
+                    }
+                  ]
+                },
+                "positions": [
+                  {
+                    "id": "be9ee3ca-2afc-4ed8-8e20-4bde9eb39758",
+                    "avgBuyPrice": "140.50",
+                    "createdAt": "2023-12-05T05:51:23.705862+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720900PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "59890.00",
+                    "currentValue": "59890.00",
+                    "profitLoss": "1290.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "0.05",
+                    "date": "2023-12-05",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "ec3f0340-5510-4894-8972-b2628289fb7c",
+                        "createdAt": "2023-12-05T08:57:22.106797+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "129.95",
+                        "condition": "EXIT",
+                        "quantity": -200,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "f78a60d5-5bc0-44a2-ad43-39b7996b2f31",
+                        "createdAt": "2023-12-05T08:54:23.968955+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "140.50",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "f445ea4d-c868-4d12-bdb1-92fb62e1c954",
+                        "createdAt": "2023-12-05T06:45:19.181615+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "163.70",
+                        "condition": "EXIT",
+                        "quantity": -50,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "8036dcd9-013d-4078-8b29-ebd537651c8c",
+                        "createdAt": "2023-12-05T06:05:03.444213+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "189.90",
+                        "condition": "TARGET",
+                        "quantity": 50,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "6524af28-3765-42e7-bf20-ebe913fc0f2d",
+                        "createdAt": "2023-12-05T06:02:43.586007+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "175.10",
+                        "condition": "TARGET",
+                        "quantity": 100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "33990983-d071-4f82-9c5c-83bc5ff71913",
+                        "createdAt": "2023-12-05T05:51:23.705862+00:00",
+                        "symbol": "NIFTY23D0720900PE",
+                        "price": "158.95",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ab3c0e6b-7ca7-4559-af75-5e36a6592486",
+                    "avgBuyPrice": "211.00",
+                    "createdAt": "2023-12-08T06:12:04.639144+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1420850CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "126600.00",
+                    "currentValue": "126600.00",
+                    "profitLoss": "-4020.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "218.30",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "1f6f307a-ac60-4693-af88-a90cbb6aaf4e",
+                        "createdAt": "2023-12-08T06:36:07.871730+00:00",
+                        "symbol": "NIFTY23D1420850CE",
+                        "price": "204.30",
+                        "condition": "EXIT",
+                        "quantity": -600,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "04d16b7c-f651-4304-9fb9-956540452ea2",
+                        "createdAt": "2023-12-08T06:12:04.639144+00:00",
+                        "symbol": "NIFTY23D1420850CE",
+                        "price": "211.00",
+                        "condition": "ENTRY",
+                        "quantity": 600,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a8872741-bbeb-4255-b33e-1a1fbcfecb48",
+                    "avgBuyPrice": "160.35",
+                    "createdAt": "2023-12-05T08:21:42.170421+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720700CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "66550.00",
+                    "currentValue": "66550.00",
+                    "profitLoss": "3342.50",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "188.35",
+                    "date": "2023-12-05",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "22ec7a46-b5d8-43aa-8bee-2dc210698d97",
+                        "createdAt": "2023-12-05T09:48:32.859843+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "190.10",
+                        "condition": "EXIT",
+                        "quantity": -250,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "857d6698-566b-4cd7-a491-c72bf3d254af",
+                        "createdAt": "2023-12-05T09:30:32.928711+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "189.75",
+                        "condition": "TARGET",
+                        "quantity": -50,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "53cd92c2-edb2-48bf-be48-f669de1ba1c1",
+                        "createdAt": "2023-12-05T09:08:52.065274+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "175.40",
+                        "condition": "TARGET",
+                        "quantity": -100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "ba2c72ba-fb3f-4994-9f9e-e3639f237575",
+                        "createdAt": "2023-12-05T08:57:22.433956+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "160.35",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "019ab0fe-b9ff-43d0-a4f1-87c23874bf0a",
+                        "createdAt": "2023-12-05T08:32:30.743178+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "152.10",
+                        "condition": "STOPLOSS",
+                        "quantity": -200,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "1224ef36-c88b-44c6-8334-020c53025d14",
+                        "createdAt": "2023-12-05T08:21:42.170421+00:00",
+                        "symbol": "NIFTY23D0720700CE",
+                        "price": "172.40",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a00213ba-276e-4c4b-aee7-91bd2778bdd3",
+                    "avgBuyPrice": "113.60",
+                    "createdAt": "2023-12-07T05:12:08.701324+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720800CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "316500.00",
+                    "currentValue": "316500.00",
+                    "profitLoss": "24255.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "101.05",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "72799f1a-1cea-4863-8715-13c7024df3ee",
+                        "createdAt": "2023-12-07T08:30:49.109025+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "114.85",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "f85950fd-6a72-43d7-8f0c-f058ce723a89",
+                        "createdAt": "2023-12-07T08:30:09.689587+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "113.60",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "3196b693-0049-442b-b914-85c9e82aa3c3",
+                        "createdAt": "2023-12-07T08:24:07.264793+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "114.05",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "b832bae1-526e-44c4-8631-d25376dbc2f3",
+                        "createdAt": "2023-12-07T07:45:10.451369+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "116.95",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "d285f770-f91d-48ca-94e2-88ecc243b604",
+                        "createdAt": "2023-12-07T07:33:10.205981+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "107.50",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "ebb8109b-0225-4ea4-9726-dbae95b89ed6",
+                        "createdAt": "2023-12-07T07:12:05.902916+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "106.85",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "5cec518a-753d-48ef-bc34-11199b7327ea",
+                        "createdAt": "2023-12-07T07:03:08.955625+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "95.40",
+                        "condition": "STOPLOSS",
+                        "quantity": -400,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "45f9f9d9-4da8-4888-9902-5973f2804e06",
+                        "createdAt": "2023-12-07T06:21:08.251537+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "117.15",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "e2873b1d-4bb0-483b-b997-1ca67b92d25e",
+                        "createdAt": "2023-12-07T05:39:15.876711+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "128.70",
+                        "condition": "EXIT",
+                        "quantity": -350,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "bb10d909-b543-4048-bd3d-d2a45d282973",
+                        "createdAt": "2023-12-07T05:34:38.903735+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "127.30",
+                        "condition": "TARGET",
+                        "quantity": -350,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "d51cb4d7-a6ef-4453-b50d-eda883854f1b",
+                        "createdAt": "2023-12-07T05:23:03.902096+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "112.05",
+                        "condition": "TARGET",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "83446305-f985-41df-9ce1-4d0940789463",
+                        "createdAt": "2023-12-07T05:12:08.701324+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "96.20",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "87cd74b1-e92e-4902-8e64-4ef1280c2239",
+                    "avgBuyPrice": "184.20",
+                    "createdAt": "2023-12-05T07:03:24.111030+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720650CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "36840.00",
+                    "currentValue": "36840.00",
+                    "profitLoss": "4462.50",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "259.00",
+                    "date": "2023-12-05",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "a86f7a74-32b3-4fb0-a329-823dc1822dfc",
+                        "createdAt": "2023-12-05T08:21:37.160081+00:00",
+                        "symbol": "NIFTY23D0720650CE",
+                        "price": "212.75",
+                        "condition": "EXIT",
+                        "quantity": -50,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "0e7498bb-ef20-46b2-bd55-94a663e76003",
+                        "createdAt": "2023-12-05T08:04:01.549949+00:00",
+                        "symbol": "NIFTY23D0720650CE",
+                        "price": "214.30",
+                        "condition": "TARGET",
+                        "quantity": 50,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "fcd6e3bb-64fa-46f3-b856-bdb142dd776b",
+                        "createdAt": "2023-12-05T07:20:25.742754+00:00",
+                        "symbol": "NIFTY23D0720650CE",
+                        "price": "199.80",
+                        "condition": "TARGET",
+                        "quantity": 100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "ff02ad71-de73-4dd5-86de-2971e20e5cb7",
+                        "createdAt": "2023-12-05T07:03:24.111030+00:00",
+                        "symbol": "NIFTY23D0720650CE",
+                        "price": "184.20",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "843141c3-d352-4146-9027-c0d3cfdf95ab",
+                    "avgBuyPrice": "131.90",
+                    "createdAt": "2023-12-07T03:48:07.716539+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0721000PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "184660.00",
+                    "currentValue": "184660.00",
+                    "profitLoss": "7805.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "98.75",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "81f699d0-3c42-4d45-be16-60a6dc7a20bc",
+                        "createdAt": "2023-12-07T04:01:06.729436+00:00",
+                        "symbol": "NIFTY23D0721000PE",
+                        "price": "127.80",
+                        "condition": "STOPLOSS",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "35afef1f-5ff1-429e-a205-c935539812d4",
+                        "createdAt": "2023-12-07T03:58:31.861997+00:00",
+                        "symbol": "NIFTY23D0721000PE",
+                        "price": "147.15",
+                        "condition": "TARGET",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "fccad1b3-478f-4a06-a107-6b8455320b9c",
+                        "createdAt": "2023-12-07T03:48:07.716539+00:00",
+                        "symbol": "NIFTY23D0721000PE",
+                        "price": "131.90",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "76711d25-a15d-4a37-b1b4-ba69de071b37",
+                    "avgBuyPrice": "158.45",
+                    "createdAt": "2023-12-08T05:33:06.672399+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D1421100PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "342870.00",
+                    "currentValue": "342870.00",
+                    "profitLoss": "18785.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "141.95",
+                    "date": "2023-12-08",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "cb3ac174-7d7b-4152-ac11-284567e3d029",
+                        "createdAt": "2023-12-08T06:54:53.098142+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "171.05",
+                        "condition": "EXIT",
+                        "quantity": -300,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "e6448b1f-fae6-4ea4-b720-de0c5de19aac",
+                        "createdAt": "2023-12-08T06:53:06.800011+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "173.85",
+                        "condition": "TARGET",
+                        "quantity": -300,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "bc467fb6-5843-4b87-b0e1-0917c7557bbd",
+                        "createdAt": "2023-12-08T06:36:08.965582+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "158.45",
+                        "condition": "ENTRY",
+                        "quantity": 600,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "2d8b6b89-6bbe-419c-9ad5-915ff5e1a3dd",
+                        "createdAt": "2023-12-08T05:44:15.707095+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "176.20",
+                        "condition": "STOPLOSS",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "80489494-381e-4902-b8f9-a2ece03e4065",
+                        "createdAt": "2023-12-08T05:35:58.035032+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "192.85",
+                        "condition": "TARGET",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "cb15f69c-f28f-4bce-bcc3-77794884bd2e",
+                        "createdAt": "2023-12-08T05:33:06.672399+00:00",
+                        "symbol": "NIFTY23D1421100PE",
+                        "price": "177.00",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "5f28edf4-61a4-458d-98e5-5c6bab86835c",
+                    "avgBuyPrice": "136.80",
+                    "createdAt": "2023-12-07T06:18:06.539470+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0721050PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "231940.00",
+                    "currentValue": "231940.00",
+                    "profitLoss": "-8760.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "148.80",
+                    "date": "2023-12-07",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "6fa7f487-230f-4629-a843-9725b5b05af1",
+                        "createdAt": "2023-12-07T08:30:09.205225+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "137.95",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "fcceeb10-022c-4248-9bab-bd324a60fa3c",
+                        "createdAt": "2023-12-07T08:24:07.695237+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "136.80",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "3492cab5-6fb5-45e6-ae74-fb56b361271d",
+                        "createdAt": "2023-12-07T07:45:07.701274+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "136.15",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "d11803e4-b851-4212-a84e-550661ded200",
+                        "createdAt": "2023-12-07T07:33:10.619790+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "145.30",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "b580159d-31fe-4e32-b100-5ab4e5964042",
+                        "createdAt": "2023-12-07T07:12:05.694826+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "145.95",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "920d7362-d2e3-4f1a-9876-8c2f550a6eb0",
+                        "createdAt": "2023-12-07T07:06:08.711738+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "152.15",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "8e79f05d-0f2a-4b57-a55a-13e0d4297b26",
+                        "createdAt": "2023-12-07T06:21:08.052050+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "137.90",
+                        "condition": "EXIT",
+                        "quantity": -400,
+                        "orderType": "STOPLOSS",
+                        "status": "DONE",
+                        "reason": "Stoploss Modified"
+                      },
+                      {
+                        "id": "8b4f7e8d-2340-46b7-8bf0-b6a04078ec6e",
+                        "createdAt": "2023-12-07T06:18:06.539470+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "145.60",
+                        "condition": "ENTRY",
+                        "quantity": 400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "0e2d3000-92ab-4756-96d4-f49948d1de36",
+                    "avgBuyPrice": "146.65",
+                    "createdAt": "2023-12-06T05:18:06.209095+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0720800CE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "237610.00",
+                    "currentValue": "237610.00",
+                    "profitLoss": "10610.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "101.05",
+                    "date": "2023-12-06",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "2f0a8a5e-3e74-4441-9ca2-6a5b92b6f34d",
+                        "createdAt": "2023-12-06T08:37:39.700017+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "146.25",
+                        "condition": "STOPLOSS",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "74af43e6-573e-4dca-beb1-10fc69f751fd",
+                        "createdAt": "2023-12-06T08:36:10.239395+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "159.85",
+                        "condition": "TARGET",
+                        "quantity": -700,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "2c686434-9472-478b-9d1f-b9499e5b7cb2",
+                        "createdAt": "2023-12-06T08:18:07.641228+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "146.65",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "4139aeac-05ea-4a39-983c-c06ae8bb8e42",
+                        "createdAt": "2023-12-06T05:40:03.551150+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "161.30",
+                        "condition": "STOPLOSS",
+                        "quantity": -100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "06a3176e-090c-4ab0-a934-98a6657f45b4",
+                        "createdAt": "2023-12-06T05:29:44.954279+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "178.20",
+                        "condition": "TARGET",
+                        "quantity": -100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "aa07cdda-6798-4ca4-8f85-cea33813fc83",
+                        "createdAt": "2023-12-06T05:18:06.242471+00:00",
+                        "symbol": "NIFTY23D0720800CE",
+                        "price": "161.50",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "04fe2dcb-ef94-4a02-bb9d-47b78e4c2c2b",
+                    "avgBuyPrice": "140.60",
+                    "createdAt": "2023-12-06T05:06:07.391944+00:00",
+                    "token": "1234",
+                    "symbol": "NIFTY23D0721050PE",
+                    "quantity": 0,
+                    "exchange": "NFO",
+                    "product": "MIS",
+                    "totalValue": "229640.00",
+                    "currentValue": "229640.00",
+                    "profitLoss": "17720.00",
+                    "profitLossPercentage": "0.00",
+                    "ltp": "148.80",
+                    "date": "2023-12-06",
+                    "expire": false,
+                    "Orders": [
+                      {
+                        "id": "7c32fe74-7e18-4b2e-a08f-3f810b752a38",
+                        "createdAt": "2023-12-06T07:27:30.653799+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "155.45",
+                        "condition": "STOPLOSS",
+                        "quantity": -1250,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "b963249a-848b-4566-bbc0-19f3a00b2951",
+                        "createdAt": "2023-12-06T07:15:45.209415+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "172.15",
+                        "condition": "TARGET",
+                        "quantity": -50,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "66e0ba7e-b6df-4d19-8577-6afc1d1dde8b",
+                        "createdAt": "2023-12-06T07:11:57.486891+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "156.50",
+                        "condition": "TARGET",
+                        "quantity": -100,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Order placed by suscessfully"
+                      },
+                      {
+                        "id": "1207cfdd-9228-4df6-9da0-86b9c74ec0f7",
+                        "createdAt": "2023-12-06T06:51:07.688968+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "140.60",
+                        "condition": "ENTRY",
+                        "quantity": 1400,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      },
+                      {
+                        "id": "ae813c7e-c5e4-427b-aed2-a7a9a2c69e19",
+                        "createdAt": "2023-12-06T05:17:29.773074+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "143.95",
+                        "condition": "STOPLOSS",
+                        "quantity": -200,
+                        "orderType": "MARKET",
+                        "status": "COMPLETE",
+                        "reason": "Triggered by broker"
+                      },
+                      {
+                        "id": "a279d9f6-8614-4aaa-b42c-e5c7c2a5b8b1",
+                        "createdAt": "2023-12-06T05:06:12.150745+00:00",
+                        "symbol": "NIFTY23D0721050PE",
+                        "price": "164.00",
+                        "condition": "ENTRY",
+                        "quantity": 200,
+                        "orderType": "MARKET",
+                        "status": "DONE",
+                        "reason": "Order Placed Successfully"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
